@@ -31,13 +31,13 @@ for i in range(1, 50, 2):
 
 print("The result of the sum of 1 + 3 + 5 + 7 + ... + 49 is:", sum)
 
-a = int(input("Por favor, informe o valor de a: "))
-b = int(input("Por favor, informe o valor de b: "))
+a = int(input("Please, inform the value of a: "))
+b = int(input("Please, inform the value of b: "))
 c = sum_of_two_numbers(a, b)
 print("The result of the sum of a + b is:", c)
 
-d = int(input("Por favor, informe o valor de d: "))
-e = int(input("Por favor, informe o valor de e: "))
+d = int(input("Please, inform the value of d: "))
+e = int(input("Please, inform the value of e: "))
 results = operations(d, e)
 print("The result of the sum of d + e is: ", results[0])
 print("The result of the subtraction of d - e is: ", results[1])
